@@ -1,0 +1,8 @@
+CREATE TABLE  demonstracoes_contabeis(
+    data DATE,
+    reg_ans INTEGER,
+    cd_conta_contabil INTEGER,
+    descricao VARCHAR(150),
+    vl_saldo_inicial NUMERIC
+    vl_saldo_final NUMERIC
+);

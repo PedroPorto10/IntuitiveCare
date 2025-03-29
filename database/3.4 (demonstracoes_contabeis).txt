@@ -1,0 +1,32 @@
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\1T2023.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\2T2023.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\3T2023.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\4T2023.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\1T2024.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\2T2024.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\3T2024.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');
+
+COPY demonstracoes_contabeis(data, reg_ans, cd_conta_contabil, descricao, vl_saldo_inicial, vl_saldo_final) 
+FROM 'C:\4T2024.csv' 
+WITH (FORMAT CSV, DELIMITER ';', ENCODING 'UTF-8', HEADER, QUOTE '"');

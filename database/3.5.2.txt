@@ -1,0 +1,7 @@
+SELECT reg_ans, SUM(vl_saldo_final - vl_saldo_inicial) AS total_despesa
+FROM demonstracoes_contabeis
+WHERE data BETWEEN '2023-10-01' AND '2024-10-01'
+AND descricao = 'EVENTOS/ SINISTROS CONHECIDOS OU AVISADOS  DE ASSISTÊNCIA A SAÚDE MEDICO HOSPITALAR '
+GROUP BY reg_ans
+ORDER BY total_despesa DESC
+LIMIT 10;
